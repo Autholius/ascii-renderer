@@ -1,3 +1,2 @@
 # Ignore meson build directory
-builddir/
 build/
