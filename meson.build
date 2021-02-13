@@ -6,8 +6,9 @@ glm_subproject = cmake.subproject('glm')
 glm_lib = glm_subproject.dependency('glm')
 
 sources = [
-  'src/main.cpp',
+  'src/main.cc',
   'src/screen.cc',
+  'src/geometry.cc',
   ]
 
 executable('renderer', sources, dependencies: [glm_lib])
