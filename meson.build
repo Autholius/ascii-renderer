@@ -7,6 +7,7 @@ glm_lib = glm_subproject.dependency('glm')
 
 sources = [
   'src/main.cpp',
+  'src/screen.cc',
   ]
 
 executable('renderer', sources, dependencies: [glm_lib])

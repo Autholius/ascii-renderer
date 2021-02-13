@@ -1,2 +1,3 @@
 # Ignore meson build directory
 build/
+.ccls-cache
