@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <tiny_obj_loader.h>
 
 #include <glm/vec3.hpp>
 
@@ -14,7 +15,7 @@ int main() {
   arend::Mesh* mesh = new arend::Mesh();
 
   OurScreen.Render();
-  
+
   delete mesh;
 
   return 0;
